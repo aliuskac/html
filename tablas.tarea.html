@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tarea</title>
+    <style>
+       
+       col:nth-child(1){
+            background-color:rgb(255, 80, 255);
+        }
+        col:nth-child(2){
+            background-color:rgb(80, 255, 232);
+        }
+        table {
+            border: #b2b2b2 1px solid;
+                }
+        td, th , caption {
+            border: black 1px solid;
+                        }
+   </style>
+</head>
+<body>
+    <table style="text-align: center;">
+        <caption><b>Animales en peligro de extincion</b></caption>
+        <colgroup>
+            <col span="3">
+            <col>
+        </colgroup>
+        <thead>
+           <tr>
+                <th>nombre</th>
+                <th>cuello</th>
+                <th>prevision 2010</th>
+                <th>prevision2020</th>
+            </tr>
+        </thead>
+        <tbody>
+            
+            <tr>
+                <td>ballena</td>
+                <td>6000</td>
+                <td>4000</td>   
+                <td>1500</td>
+            </tr>
+            <tr>
+                <td>oso pardo</td>
+                <td>50</td>
+                <td rowspan="2  " colspan="2">0</td>
+           </tr>
+            <tr>
+                <td>elefante</td>
+                <td>10</td>
+          </tr>
+            <tr>
+                <td>tigre</td>
+                <td>300</td>
+                <td colspan="2">210</td>
+            </tr>
+
+        </tbody>
+    </table>
+</body>
+</html>
