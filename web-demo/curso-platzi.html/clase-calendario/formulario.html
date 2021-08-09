@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+</head>
+<body>
+    <main>
+        <form action="">
+            <fieldset>
+                <legend>Formulario</legend>
+                    <div>
+                        <label for="nombre">
+                            <span>Nombre de usuario</span>
+                            <input type="text" id="nombre"  name="nombre"  placeholder="escribe aqui"> 
+                        </label>
+                    </div>
+                    
+                    <div>
+                        <label for="correo">
+                            <span>correo de usuario </span>
+                            <input type="email"  id="correo"  name="correo"  autocomplete="email"> 
+                        </label>
+                    </div>
+                    <div>
+                        <label for="contraseña">
+                            <span>contraseña</span>
+                            <input type="password"  id="contraseña"  name="contraseña"  autocomplete="new-password"> 
+                        </label>
+                    </div>
+                    
+                    <div>
+                        <label for="pais">
+                            <span> pais de origen</span>
+                            <input type="text"  id="pais"  name="pais"  required> 
+                        </label>
+                    </div>
+                    
+                    <div>
+                        <label for="cp">
+                            <span>codigo postal</span>
+                            <input type="text"  id="cp"  name="cp"> 
+                        </label>
+                    </div>
+                
+                    <label for="file">agrega tu pasaporte</label>
+                    <input type="file"  id="file"  name="file"> <br><br>
+                
+                    <input type="submit">
+                
+                
+            </fieldset>
+        </form>
+    </main>
+    
+</body>
+</html>

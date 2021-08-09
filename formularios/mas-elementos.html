@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>
+                datos personales
+            </legend>
+            <div>
+                <label for="name">nombre</label>
+                <input type="text"  id="name">
+            </div>
+
+            <label for="lastname">apellido</label>
+            <input type="text"  id="lastname">
+        </fieldset>
+
+        <input type="file">
+        <div>
+            <label for="coment">escribeme</label>
+            <textarea name="coment" id="coment" cols="8" rows="2"></textarea>
+        </div>
+
+        <div>
+            <label for="oxygen">oxigeno</label>
+            <meter id="oxygen"  min="0" max="100"  value="13"  low="30" high="85" optimum="50"></meter> 
+        </div>
+        <div>
+            <label for="tesis">tesis correccion</label>
+            <progress id="tesis" max="100" value="80"></progress>
+        </div>
+    </form>
+</body>
+</html>

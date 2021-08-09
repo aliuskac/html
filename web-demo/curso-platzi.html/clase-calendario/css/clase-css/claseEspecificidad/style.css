@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: sans-serif;
+    color: blueviolet;
+}
+
+
+.title {
+    font-size: 30px;
+    font-family: monospace;
+}
+
+.nav {
+   margin-top: 30px;
+   list-style-type: none;
+   padding-left: 0;
+}
+
+.nav li {
+   display: inline-block;
+
+}
+.nav a {
+    color:blue;
+    background-color: aqua;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.nav .isa {
+    background-color: orchid;
+
+}
+

@@ -1,0 +1,33 @@
+  .main-nav{
+      list-style: none;
+      padding-top: 10px;
+      padding-left: 0;
+      background-color: lightcoral;
+  }
+
+  .main-nav__item{
+    display: inline-block;
+  }
+
+.main-nav__item a{
+  color: white;
+  padding: 15px;
+  border-radius:   2px;
+  text-decoration: none;
+}
+
+.main-nav__item a:hover {
+  color: aqua;
+}
+
+.main-nav__item a:active{
+  color: yellow;
+}
+
+.main-nav__item a::after{
+  content: " | ";
+}
+
+.main-nav__item a::before{
+  content: " | ";
+}
