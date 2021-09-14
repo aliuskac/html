@@ -1,0 +1,156 @@
+:root {
+  --skin-color:#f6c09c;
+  --white:#ffffff;
+  --beard: #00243a;
+  --lips:#680425;
+  --tongue:#ed2860;
+  --background: #ed4042;
+  --ears: #ed927d;
+  --eyes: #002439;
+}
+
+.container {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+}
+
+.head {
+  width: 100px;
+  height: 200px;
+  background-color: var(--skin-color);
+  border-radius: 50px;
+  position: relative;
+}
+
+.eye-left {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  background-color: var(--white);
+  top: 50px;
+  left: 25px;
+  border-radius: 50%;
+}
+
+.eye-right {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  background-color: var(--white);
+  border-radius: 50px;
+  top: 50px;
+  left: 60px;
+}
+
+.nose {
+  width: 30px;
+  height: 30px;
+  border-radius: 50px;
+  position: absolute;
+  top: 75px;
+  left: 38px;
+  background-color: var(--skin-color)
+}
+
+.ear-left {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  background-color: var(--ears);
+  top: 65px;
+  z-index: 1;
+  left: -18px;
+  border-radius: 50% 0 0 50%;
+}
+
+.ear-right {
+  width:  20px;
+  height: 20px;
+  position: absolute;
+  background-color: var(--ears);
+  top: 65px;
+  z-index: 1;
+  left: 100px;
+  border-radius: 0 50% 50% 0;
+}
+
+.beard {
+  width: 100px;
+  height: 110px;
+  background-color: var(--beard);
+  border-radius: 30% 30% 50% 50%;
+  position: absolute;
+  bottom: 0;
+}
+
+.eye-left-kid {
+  width: 5px;
+  height: 5px;
+  position: absolute;
+  background-color: var(--eyes);
+  border-radius: 50%;
+  top: 8px;
+  left: 7px;
+}
+
+.eye-right-kid {
+  width: 5px;
+  height: 5px;
+  position: absolute;
+  background-color: var(--eyes);
+  border-radius: 50%;
+  top: 8px;
+  left: 7px;
+}
+
+.lips {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  background-color: var(--lips);
+  top: 25px;
+  left: 30px;
+  border-radius: 0 0 50% 50%;
+}
+
+.tooth {
+  width: 40px;
+  height: 10px;
+  position: absolute;
+  background-color: var(--white);
+  border-radius: 0 0 50% 50%;
+}
+
+.tongue {
+  width: 30px;
+  height: 15px;
+  position: absolute;
+  background-color: var(--tongue);
+  top: 25px;
+  left: 5px;
+  border-radius:30% 30% 50% 50%;
+}
+
+.eyebrow-left {
+  width: 25px;
+  height: 8px;
+  position: absolute;
+  background-color:  var(--beard);
+  top: 40px;
+  left: 20px;
+  border-radius: 50% 30% 0 20%;
+}
+
+.eyebrow-right {
+  width: 25px;
+  height: 8px;
+  position: absolute;
+  background-color:  var(--beard);
+  top: 40px;
+  left: 60px;
+  border-radius: 30% 50% 20% 0%;
+}
+
+

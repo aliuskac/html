@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 2rem;
+}
+
+header {
+    height: 60px;
+    width: 100%;
+
+}
+
+main {
+    height: 73vh;
+}
+
+nav {
+    position: absolute;
+    right: 1rem; 
+    padding: 1rem;
+   
+}
+
+li {
+    display: inline-block;
+    width: 50px;
+    padding: 5%;
+    padding-top: 1px;
+}
+
+.goku  {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-left: 50%;
+    margin-bottom: 10%;
+   
+}
+
+.google {
+    display: flex;
+    justify-content:center;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    height: 40px;
+}
+    
+/* input:hover{
+   background-color: rgba(126, 121, 121, 0.082);
+} */
+
+#searchDiv {
+    height: 45px;
+    border-radius: 50px;
+    border: 0.5px solid;
+    padding: 0px;
+    margin: 0px;
+    width: 700px;
+}
+
+input {
+    width: 70%;
+    padding: 0px;
+    margin: 0px 50px;
+    border: 0;
+    height: 100%;
+}
+
+.boton  {
+    display: flex;
+    justify-content:center;
+}
+
+.icono {
+   margin-right: 10px;
+   padding:-8%;
+   padding-left: 100%;
+   margin-right: 100%;
+   padding-top: 20%;
+}
+
+#footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+#footer a {
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.boton button {
+    margin: 0 20px;
+    padding: 5px ;
+    border: none;
+   
+}
+
+button:hover {
+   border: 0.5px solid;
+}
+
+

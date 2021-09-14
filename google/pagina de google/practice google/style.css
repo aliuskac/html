@@ -1,0 +1,135 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body{
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 20px;
+}
+
+header {
+    height: 70px;
+    width: 100%;
+}
+
+header nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+a {
+    text-decoration: none;
+}
+
+header nav .ul-header {
+ list-style: none;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin: 20px;
+}
+
+header nav .ul-header a {
+    margin: 8px;
+}
+
+#menu {
+    background-image: url('https://icon-library.com/images/dots-icon/dots-icon-5.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 25px;
+    height: 25px;
+}
+
+#photo {
+    border-radius: 50%;
+}
+
+main {
+    text-align: center;
+}
+
+.input-google {
+    margin: 0 auto;
+    width: 500px;
+    margin-bottom: 40px;
+}
+
+#images {
+    width: 450px;
+}
+
+.input-text {
+    padding: 0 10px;
+    width: 500px;
+    border-radius:20px ;
+    border: 1px solid  #5f6368;
+    margin: 5px auto;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    height: 30px;
+}
+
+.input-text:hover{
+    box-shadow: 0 0px 2px;
+
+}
+
+.input-text input {
+    width: 420px;
+    height: 28px;
+    border: none;
+}
+
+.input-text input:focus {
+    outline: none;
+}
+
+
+.icono {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/0/0b/Search_Icon.svg');
+    background-repeat:no-repeat;
+    background-size: 20px;
+    width: 20px;
+    height: 20px;
+}
+
+.microphone {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/e/e8/Google_mic.svg');
+    background-repeat:no-repeat;
+    background-size: 15px;
+    width: 20px;
+    height: 20px;
+}
+
+ .button-sutmit {
+     width: 400px;
+     margin: 0 auto;
+ }
+
+ .button-submit div{
+     display: inline-block;
+     margin: 10px;
+ }
+
+ button{
+     height: 30px;
+     padding: 0 15px;
+     border:none; 
+     font-size: 14px;
+ }
+
+ button:hover{
+     border: 1px solid grey;
+    box-shadow: 0 1px 1px black;
+ }
+
+
+
+
+
+
+
+ 
